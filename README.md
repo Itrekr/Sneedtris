@@ -1,6 +1,6 @@
 # Sneedtris
 
-Sneedtris is a simple Tetris game written in Python.
+Sneedtris is a simple python Tetris clone written only through dialogue with ChatGPT and inspired by Al Sneed from the Simpsons episode "E-I-E-I-D'oh".
 
 ## Installation Instructions
 
@@ -18,6 +18,12 @@ To install the requirements, run the following command:
 pip install -r requirements.txt
 ```
 
+After installing the requirements the game can be run by typing the following command in terminal:
+
+```
+python3 sneedtris.py
+```
+
 ## Controls
 
 The controls for Sneedtris are as follows:
@@ -26,9 +32,15 @@ The controls for Sneedtris are as follows:
 - `k`: Rotate the current piece
 - `l`: Move the current piece to the right
 
+The game closes automatically when you lose.
+
 ## Contributions
 
-If you would like to contribute to Sneedtris, please feel free to submit a pull request. All contributions are welcome!
+If you would like to contribute to Sneedtris, please feel free to submit a pull request. All contributions are welcome but the following things are what I would personally like to see added to the game:
+
+- [ ] A way to display your score
+- [ ] A way to make the 'j'-key speed down the current tetrimino
+- [ ] A Sneed's Feed and Seed (Formerly Chuck's) reference
 
 ## License
 
