@@ -158,17 +158,17 @@ while True:
         # Check for keydown events
         elif event.type == pygame.KEYDOWN:
             # Check if the left arrow key is pressed
-            if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_h:
                 # Check if the Tetrimino can be moved left
                 if is_valid_tetrimino(current_x - 1, current_y, current_tetrimino, current_rotation):
                     current_x -= 1
             # Check if the right arrow key is pressed
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_l:
                 # Check if the Tetrimino can be moved right
                 if is_valid_tetrimino(current_x + 1, current_y, current_tetrimino, current_rotation):
                     current_x += 1
             # Check if the up arrow key is pressed
-            elif event.key == pygame.K_UP:
+            elif event.key == pygame.K_k:
                 # Check if the Tetrimino can be rotated
                 rotated_tetrimino = rotate_tetrimino(current_tetrimino)
                 if is_valid_tetrimino(current_x, current_y, rotated_tetrimino, current_rotation):
